@@ -9,6 +9,7 @@ LeNet分为卷积层块和全连接层块两个部分。
      
 然后将数据扔进全连接层，硬train一发。
 其中激活函数都是Sigmoid函数，但是最后trian出来的结果不是很理想，test accuracy: 0.60左右
+
 最后将激活函数改成为 LeRU函数，test accuracy: 0.96 左右
 
 以下是trian的结果：
