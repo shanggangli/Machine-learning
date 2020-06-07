@@ -1,11 +1,16 @@
 # -CNN--LeNet-
-LeNet分为卷积层块和全连接层块两个部分。
+# LeNet分为卷积层块和全连接层块两个部分。
+
 卷积层有2层：
-第一层将数据(1,28,28)——>(6,14,14) 其中 in_channels(输入通道)=1,out_channels(输出)=6,kernel_size(卷积层size)=5
+# 第一层将数据(1,28,28)——>(6,14,14) 
+
+      in_channels(输入通道)=1,out_channels(输出)=6,kernel_size(卷积层size)=5
 
       池化层(取最大)：kernel_size=2,stride=2
       
-第二层将数据(6,14,14)——>(16,4,4)in_channels=6,out_channels=16,kernel_size=5，没有补充数据，步幅=1
+# 第二层将数据(6,14,14)——>(16,4,4)
+
+      in_channels=6,out_channels=16,kernel_size=5，没有补充数据，步幅=1
 
      池化层(取最大):kernel_size=2,stride=2
      
