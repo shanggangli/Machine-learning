@@ -4,7 +4,7 @@
 卷积层有2层：
 # 第一层将数据(1,28,28)——>(6,14,14) 
 
-      in_channels(输入通道)=1,out_channels(输出)=6,kernel_size(卷积层size)=5
+      in_channels(输入通道)=1,out_channels(输出)=6,kernel_size(卷积层size)=5，没有补充数据，步幅=1
 
       池化层(取最大)：kernel_size=2,stride=2
       
