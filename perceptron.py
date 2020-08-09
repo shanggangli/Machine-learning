@@ -51,7 +51,6 @@ if __name__ == '__main__':
     x=[i[0] for i in train_data]
     y=[i[1] for i in train_data]
     scatter=plt.scatter(x,y)
-    plt.legend()
     # test data
     x1=[i[0] for i in test_data]
     y1=[i[1] for i in test_data]
